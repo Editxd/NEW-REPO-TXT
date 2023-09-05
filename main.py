@@ -23,9 +23,9 @@ import re
 import os
 
 bot = Client("bot",
-             bot_token= "6635304109:AAHw06dprDY_uux2eJn6XAJyYFjh9jvL1Hg"
-             api_id= 1463957,
-             api_hash= "17bbc6e28fb5f22d4cc0220e0175a700")
+             bot_token= "6552257928:AAGwa7jxa6DLBZL28N2KwW9JPSCs5rKRUpc",
+             api_id= 23539681,
+             api_hash= "ae1430184ae21aa81b4b030d1bd75885")
 
 
 @bot.on_message(filters.command(["start"]) & filters.user(ADMINS))
@@ -197,7 +197,7 @@ async def account_login(bot: Client, m: Message):
                         time.sleep(e.x)
                         continue
                 else:
-                    prog = await m.reply_text(f"**Downloading:-**\n\n** Video Name :-** `{name}\nQuality - {raw_text2}`\n**link:**`{url}`\n\n **bot made by JAIDEEP**")
+                    prog = await m.reply_text(f"**Downloading:-**\n\n** Video Name :-** `{name}\nQuality - {raw_text2}`\n**link:**`{url}`\n\n **bot made by KARAN**")
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
                     await prog.delete(True)
