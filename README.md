@@ -1,9 +1,9 @@
 # txt uploader
 
-# Made By Kshitij
+# Made By KARAN
 
 
 ## DEPLOY TO HEROKU
 
 
-[![Deploy to heroku chacha](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/student12as/shuva)
+[![Deploy to heroku chacha](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Kktbots/NEW-REPO-TXT/tree/main)
